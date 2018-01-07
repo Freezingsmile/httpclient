@@ -8,3 +8,5 @@ httpclient模拟系统之间的交互程度不高，不过httpclient是作为WEB
  
 然后，apache又为我们提供了一个端口，就是异步httpclient（其实这里所知的异步并非真正的异步IO模式），也就是将这部分包装了，对于访问者来说还是同步的，只是在IO层面是非阻塞的了。
  
+![image](https://github.com/Freezingsmile/httpclient/blob/master/QQ%E5%9B%BE%E7%89%8720180107185157.png)
+![image](https://github.com/Freezingsmile/httpclient/blob/master/QQ%E5%9B%BE%E7%89%8720180107185158.png)
